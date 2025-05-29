@@ -1,5 +1,5 @@
 [build]
-  command = "yarn build"
+  command = "remix vite:build"
   publish = "build/client"
   functions = "build/server"
 
