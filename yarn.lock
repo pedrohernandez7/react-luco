@@ -1481,6 +1481,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@netlify/remix-runtime@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "@netlify/remix-runtime@npm:2.3.1"
+  peerDependencies:
+    "@remix-run/server-runtime": ^2.9.2
+  checksum: 10c0/5fb4e3d0a652b5a554824e7ff3659571fa00de432b8246bbdbfa68c5b66221b684fef53f28f6bb13729d53654359dcd4ca08c19b6bafd93b152df7eaeaf479b5
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -8196,6 +8205,7 @@ __metadata:
   resolution: "react-component-anatomy@workspace:."
   dependencies:
     "@netlify/remix-adapter": "npm:^2.6.1"
+    "@netlify/remix-runtime": "npm:^2.3.1"
     "@remix-run/dev": "npm:*"
     "@remix-run/node": "npm:*"
     "@remix-run/react": "npm:*"
